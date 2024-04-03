@@ -1,0 +1,55 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(large-triangles.svg);
+    color: #FFFF;
+}
+
+img {
+
+    height: 50vh;
+
+}
+
+h1, p{
+
+    padding: 10px;
+    margin: 20px;
+    text-align: center;
+}
+
+h2{
+
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+
+}
+
+.tela {
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.3rem;
+    margin: 20px;
+
+}
+
+.container{
+    gap: 1.3rem;
+
+    justify-content: center;
+    display: flex;
+    margin: 20px;
+}
+
+.gap{
+     height: 1.5rem;
+}
+
